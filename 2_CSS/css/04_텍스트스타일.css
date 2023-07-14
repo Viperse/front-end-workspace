@@ -1,0 +1,148 @@
+/* font-family */
+#ff1 {
+    font-family: 궁서체;
+}
+
+#ff2 {
+    font-family: 돋움체;
+}
+
+#ff3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ff4 {
+    font-family: 'VT323', monospace;
+}
+
+/* font-size */
+#fs {
+    font-size: 30px;
+}
+
+#fs1 {
+    font-size: 30px;
+}
+
+#fs2 {
+    font-size: 2em; /* 16 * 2 = 32px */
+}
+
+#fs3 {
+    font-size: 2rem;
+}
+
+#fs4 {
+    font-size: 150%
+}
+
+#fw1 {
+    font-weight: bold;
+}
+
+#fw2 {
+    font-weight:900; /* bolder */
+}
+
+#fw3 {
+    font-weight:100; /* lighter */
+}
+
+/* font-size */
+#fs5 {
+    font-style: italic;
+}
+
+#fs6 {
+    font-style: oblique;
+}
+
+#fv {
+    font-variant: small-caps;
+}
+
+/* font */
+#font1 {
+    font: 2rem 'VT323';
+}
+
+/* 이탤릭체, 각자의 글씨체, 글자 크기 32px, small-caps 적용, 글자 굵기 bold, line-height: 2 */
+#font2 {
+    font: italic small-caps bold 32px/2 'VT323', monospace;
+}
+
+/* color */
+#c-name {
+    color:navy;
+}
+
+#c-16 {
+    color: #dd882e;
+}
+
+#c-rgb {
+    color:rgb(68, 223, 78);
+    color:rgba(68, 223, 78, 0.45);
+}
+#c-hsl {
+    color:hsl(200, 50%, 50%);
+    color: hsla(200, 50%, 50%, 0.8);
+
+}
+
+#td1 {
+    text-decoration: underline;
+}
+
+#td2 {
+    text-decoration: line-through;
+}
+
+#td3 {
+    text-decoration: overline;
+}
+
+#td4 > a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+/* text-transform */
+
+#tt1 {
+    text-transform: uppercase;
+}
+
+#tt2 {
+    text-transform: lowercase;
+}
+
+#tt3 {
+    text-transform: capitalize;
+}
+
+/* text-shadow */
+.shadow {
+    font-size: 50px;
+    font-weight: 900
+
+}
+
+#ts1 {
+    color: orangered;
+    text-shadow: -5px -5px 5px yellow;
+}
+
+#ts2 {
+    color: white;
+    text-shadow: 0px 0px 10px yellowgreen;
+}
+
+#ts3 {
+    text-shadow: 0px 0px 4px gray, 
+    0px -5px 4px yellow, 
+    0px -10px 8px orange,
+    0px -15px 15px orangered,
+    0px -22px 20px red;
+}
