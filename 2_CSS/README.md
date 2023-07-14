@@ -299,7 +299,7 @@ font-size/line-height font-family;
 
 ```css
 선택자 {
-    text-decoration: none or underline or overline or 
+    text-decoration: none or underline or overline or line-through
 }
 ```
 
@@ -307,3 +307,113 @@ font-size/line-height font-family;
 - underline : 글자에 밑줄을 긋는다.
 - overline : 글자 위에 선을 긋는다.
 - line-through : 취소선을 긋는다.
+
+## text-transform 
+
+- 영문자를 표시할 때 대소문자를 원하는대로 바꿀 수 있는 속성
+
+```css
+선택자 {
+    text-transform: none or capitalize or uppercase or lowercase;
+}
+```
+
+- none: 변환 없이 표시
+- capitalize : 시작하는 첫 번째 글자를 대문자로 변환
+- uppercase : 모든 글자를 대문자로 변환
+- lowercase : 모든 글자를 소문자로 변환
+
+## text-shadow
+
+1. 텍스트에 그림자를 지정
+2. 여러 개 지정 가능(","로 구분)
+
+```css
+선택자 {
+    text-shadow: [dx] [dy] [blur] [color];
+}
+```
+
+- dx : 그림자의 가로방향 거리를 지정한다. 양수 값은 오른쪽, 음수 값은 왼쪽에 그림자를 만든다.
+- dy : 그림자의 세로방향 거리를 지정한다. 양수 값은 아래쪽, 음수 값은 위쪽에 그림자를 만든다.
+- blur : 그림자의 흐려짐 정도를 나타낸다. 양수로 지정하면 그림자가 모든 방향으로 번지고, 음수로 지정하면 그림자가 모든 방향으로 축소된다.
+- color : 그림자의 색상을 지정한다. 기본값은 현재 글자색
+
+## white-space
+
+- 여러 개의 공백을 처리하는 방법을 지정하는 속성
+
+```css
+선택자 {
+    white-space : normal or nowrap or pre or pre-line or pre-wrap;
+}
+```
+
+- normal : 여러 개의 공백을 하나로 표시 (기본값)
+- nowrap : 여러 개의 공백을 하나로 표시, 영역을 넘어가는 내용은 줄바꾸지 않고 한 줄로 표시
+- pre : 여러 개의 공백을 그대로 표시, 영역을 넘어가는 내용은 자동으로 줄 바꿔 표시
+- pre-line : 여러 개의 공백을 하나로 표시, 영역을 넘어가는 내용은 자동으로 줄 바꿔 표시
+- pre-wrap : 여러 개의 공백을 그대로 표시, 영역을 넘어가는 내용은 자동으로 줄 바꿔 표시
+
+## letter-spaing
+
+- 글자와 글자 사이의 간격을 조정하는 속성
+
+```css
+선택자 {
+    letter-spacing: normal or 크기;
+}
+```
+
+## word-spacing
+
+- 단어와 단어 사이 간격을 조정하는 속성
+
+```css
+선택자 {
+    word-spacing: normal or 크기;
+}
+```
+
+## text-align
+
+- 문장을 정렬하는 속성
+
+```css
+선택자 {
+    text-align: left or right or center or justify;
+}
+```
+
+## text-indent
+
+- 문장을 들여쓰기 하는 속성
+
+```css
+선택자 {
+    text-indent: 숫자(단위);
+}
+```
+
+## line-height
+
+- 문장의 줄 간격을 조정하는 속성
+
+```css
+선택자 {
+    line-height: normal or 숫자(단위);
+}
+```
+
+## text-overflow
+
+- 영역을 벗어나는 텍스트에 대한 상태를 지정하는 속성
+
+```css
+선택자 {
+    text-overflow:clip or ellipsis;
+}
+```
+
+- cilp : 영역을 넘어가는 텍스트를 자른다.
+- ellipsis: 말 줄임으로 잘린 텍스트를 표현한다.
