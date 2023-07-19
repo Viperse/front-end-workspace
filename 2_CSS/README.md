@@ -514,7 +514,7 @@ hsl(Hue(0~360), Saturation(0~100%), Brightness(0~100%), alpha(0~1));
 - repeat-y : 배경 이미지를 세로로 반복
 - **no-repeat** : 배경 이미지를 한번만 출력하고 반복하지 않는다.
 
-## background-image
+## background-size
 
 - 배경 이미지 크기를 조절하는 속성
 
