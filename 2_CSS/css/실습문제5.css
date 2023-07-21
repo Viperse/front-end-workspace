@@ -1,6 +1,6 @@
 body {
     background-color: darkblue;
-    background: linear-gradient(45deg, black, red);
+    background: linear-gradient(45deg, lightpink, lightblue);
     
 }
 
@@ -13,9 +13,11 @@ body {
 
 .square {
     background-color: white;
-    width: 5px;
-    height: 35px;
-    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    width: 8px;
+    height: 50px;
+    border-radius: 30px;
     margin: 3px;
     animation: squareBox 1s linear infinite alternate;
 }
