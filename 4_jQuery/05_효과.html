@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>효과</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'VT323', monospace;
+        }
+        .menu {
+            background-color: indigo;
+            color: white;
+            width: 600px;
+            height: 30px;
+            line-height: 30px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .contents {
+            width: 600px;
+            padding: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>1. show, hide, toggle</h2>
+
+    <button id="show">show</button>
+    <button id="hide">hide</button>
+    <button id="toggle">toggle</button>
+
+    <br>
+
+    <div>
+        <img src="../resources/album2.jpg" id="img">
+    </div>
+
+    <h2>2. fadeIn, fadeOut, fadeToggle, fadeTo</h2>
+
+    <button id="fadeIn">fadeIn</button>
+    <button id="fadeOut">fadeOut</button>
+    <button id="fadeToggle">fadeToggle</button>
+
+    <h2>3. slideDown, slideUp, slideToggle</h2>
+    <div class="menu">1 번째 메뉴</div>
+    <p class="contents">1. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, dignissimos quod optio exercitationem laudantium facere doloremque vitae aut inventore dolor perferendis impedit incidunt reiciendis necessitatibus assumenda, reprehenderit atque a illo?</p>
+    <div class="menu">2 번째 메뉴</div>
+    <p class="contents">2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus aliquid blanditiis, consequatur ut sapiente rem tenetur magnam quas dolor, earum beatae! Quas fugiat unde numquam debitis placeat illo sed.</p>
+    <div class="menu">3 번째 메뉴</div>
+    <p class="contents">3. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis itaque ea eius dignissimos, corrupti officiis commodi repellendus veritatis harum placeat nulla, atque ipsam quisquam maiores aliquam at. Aspernatur, voluptatibus quidem!</p>
+    <div class="menu">4 번째 메뉴</div>
+    <p class="contents">4. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quasi dolor soluta, quam accusamus atque et minima ipsam dolorum animi omnis temporibus, officia minus quibusdam eum tempore itaque est sunt?</p>
+    <div class="menu">5 번째 메뉴</div>
+    <p class="contents">5. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut vitae dolorum obcaecati accusantium quibusdam esse natus tempore voluptatem atque? Totam temporibus dolores dolore ducimus aliquid dicta magni ipsam esse maiores?</p>
+
+
+    <script src="js/05_효과.js"></script>
+</body>
+</html>

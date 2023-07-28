@@ -120,4 +120,34 @@ $('#textarea2').on('keyup', function(e) {
     //     $(e.target).val($(e.target).val().substring(0, 49));
     // }
 });
+
+$('#userId').on('input', function(event) {
+    const regEx = /^[a-z][a-z0-9]{4,12}$/;
+    const id = $(event.target).val();
+    console.log(id === '');
+    if(id === '') {
+        $('#idCheck').text('');
+    } else if(!regEx.test($(event.target).val())) {
+        $('#idCheck').css('color', 'red').html('사용 불가능한 아이디입니다.')
+    } else {
+        $('#idCheck').css('color', 'green').html('사용 가능한 아이디입니다.')
+    };
+});
+
+/*
+let count = 0;
+$('#area3').on('click', function() {
+    $('#counter2').html(++count);
+})
+*/
+
+// 3. trigger() 메소드
+$('#area3').on('click', function() {
+    let currentCount = parseInt($('#counter2').text());
+    $('#counter2').text(++currentCount);
+});
+
+$('#btn').on('click', function() {
+    $('#area3').trigger('click');
+})
     
