@@ -19,7 +19,7 @@ const App = () => {
   };
   return (
     <div>
-      <h1>김예진똥꾸멍개수 : {counter}</h1>
+      <h1>Total Clicks : {counter}</h1>
       <button onClick={() => setCounter(counter + 1)}>Click!</button>
     </div>
   );
